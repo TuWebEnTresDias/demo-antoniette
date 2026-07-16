@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antoniette - Resto Bar Club | Ramos Mejía</title>
+    <meta name="description" content="La noche cobra vida en Antoniette. Resto bar club en Ramos Mejía con música en vivo, karaoke y la mejor energía. Jueves a domingo desde las 20hs.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-script">Antoinette</span>
+                <span class="logo-sub">RestobarClub</span>
+            </div>
+            <nav class="nav" id="nav">
+                <a href="#experiencia" class="nav-link">La Experiencia</a>
+                <a href="#galeria" class="nav-link">Galería</a>
+                <a href="#momentos" class="nav-link">Momentos</a>
+                <a href="#reservar" class="nav-link">Reservar</a>
+            </nav>
+            <a href="https://wa.me/5491159136834?text=Hola%20Antoniette%2C%20quiero%20reservar" class="header-cta" target="_blank" rel="noopener">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+                Reservar Mesa
+            </a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk7COnHWrvHhUMRjh8wMwWWiNO_QpHoqyEnjoMtwVFrL5JoXUoHt67SkICTtfe27tbgzg7TGGnQ6gwuGJ0W7rJwj6P4hIHFrK34QAXb_g6PHAAY4lmL1QCFtPvARgK7-NlYA1zU=s1360-w1360-h1020-rw" alt="Antoniette Resto Bar Club - Interior" class="hero-img">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-animate="fade-up">
+                <span class="hero-title-script">Antoinette</span>
+                <span class="hero-title-sub">RestobarClub</span>
+            </h1>
+            <p class="hero-tagline" data-animate="fade-up" data-delay="200">Donde la noche cobra vida</p>
+            <p class="hero-description" data-animate="fade-up" data-delay="400">Música en vivo, karaoke, la mejor onda y una experience que no termina con el último tema. Ramos Mejía tiene nuevo punto de encuentro.</p>
+            <div class="hero-ctas" data-animate="fade-up" data-delay="600">
+                <a href="#experiencia" class="btn btn-primary">Descubrí la experiencia</a>
+                <a href="https://wa.me/5491159136834?text=Hola%2C%20quiero%20hacer%20una%20reserva%20en%20Antoniette" class="btn btn-secondary" target="_blank" rel="noopener">Reservar por WhatsApp</a>
+            </div>
+            <div class="hero-scroll" data-animate="fade-up" data-delay="800">
+                <span>Scroll</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia / Diferenciales -->
+    <section class="experiencia" id="experiencia">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label">La Experiencia</span>
+                <h2 class="section-title">No es solo un bar.<br>Es <em>tu</em> noche.</h2>
+            </div>
+            <div class="diferenciales">
+                <div class="diferencial" data-animate="fade-up" data-delay="0">
+                    <div class="diferencial-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/>
+                        </svg>
+                    </div>
+                    <h3 class="diferencial-title">Música en Vivo</h3>
+                    <p class="diferencial-text">Todos los viernes y sábados, la casa suena diferente. Bandas que ponen el cuerpo y el alma en cada tema. No hay playlist acá: hay gente tocando.</p>
+                </div>
+                <div class="diferencial" data-animate="fade-up" data-delay="200">
+                    <div class="diferencial-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="diferencial-title">Karaoke Night</h3>
+                    <p class="diferencial-text">¿Querés cantar? ¡Cantás! Micros libres, playlist que va del clásico al reggaetón, y una audiencia que siempre apoya. Tu momento de estrella.</p>
+                </div>
+                <div class="diferencial" data-animate="fade-up" data-delay="400">
+                    <div class="diferencial-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2m22-11a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM12 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm-7 14v-2a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v2"/>
+                        </svg>
+                    </div>
+                    <h3 class="diferencial-title">La Mejor Onda</h3>
+                    <p class="diferencial-text">Gente de todas las edades, sin discriminar, sin vueltas. Venís con amigos, conocés gente nueva, y todos están ahí para pasarla bien. Así de simple.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia Gastronómica (sin menú) -->
+    <section class="gastronomia" id="gastronomia">
+        <div class="container">
+            <div class="gastronomia-grid">
+                <div class="gastronomia-text" data-animate="fade-up">
+                    <span class="section-label">Para Comer</span>
+                    <h2 class="section-title">Pizza, empanadas<br>y lo que la pida el cuerpo.</h2>
+                    <p class="gastronomia-description">No somos gourmet y no pretendemos serlo. Somos honestos: pizza de verdad, empanadas que van bien con la birra, y tragos que no te arruinan el bolsillo. La carta cambia, los precios son justos, y la cosa fluye.</p>
+                    <p class="gastronomia-cta-text">¿Querés ver qué hay hoy?</p>
+                    <a href="https://wa.me/5491159136834?text=Hola%2C%20quiero%20saber%20la%20carta%20de%20hoy" class="btn btn-primary" target="_blank" rel="noopener">Consultá la carta por WhatsApp</a>
+                </div>
+                <div class="gastronomia-images" data-animate="fade-up" data-delay="200">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlqyn03OVx1WsA-X2XbF381QnRLjCgbvt79x7xZdY51GBSYZgZLoMmCY0mK6S0lYNVg6gYs-9CBOIIU6YKkMHJWfROBuN2xuLZQN3-mvgPuVR9UIuXBEMeInp3Ay27PXPyLhf37WQ=s1360-w1360-h1020-rw" alt="Pizza de Antoniette" loading="lazy" class="gastronomia-img-1">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkYUekOqCJsOhB5gPZ6M22WJ3nzPCLQ6zbX3_1pe-feLcM_mcXQL-0buUTDBgxQrmRO9MifODMAL_NY40--tKd59bBzR9jKJXkxjLiXsxSMC_9czEEewHjuu3GMjyWppBqYzqMd=s1360-w1360-h1020-rw" alt="Trago de Antoniette" loading="lazy" class="gastronomia-img-2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label">La Casa</span>
+                <h2 class="section-title">Así se vive acá adentro.</h2>
+            </div>
+            <div class="galeria-grid">
+                <div class="galeria-item galeria-item-large" data-animate="fade-up" data-delay="0">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnP4_OmF-AKDE61GFjZci5-_Ux5B70tDP_5Adjy3TwycVmLqXmJYq5y8nu3NXYEaDAfZvmY0vwG31yAomp_Eee1E_2emEJLvuhvdFHMPaLRP-qKbfmiUxBKEsMscVutPws_NZDcZQ=s1360-w1360-h1020-rw" alt="Interior de Antoniette" loading="lazy">
+                </div>
+                <div class="galeria-item" data-animate="fade-up" data-delay="100">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlsi7l06UpQn9A75FmOp5v5hgn4bMCg2jFf5GH48ucBuCBAHYIGqHbLt0g1UpzV_snViIXBQdbduSTNx30s05iFwQ2G_FuR1muZRx-1Z_iKXwcG0omxxlPuCSEXkXea2EOqmow=s1360-w1360-h1020-rw" alt="Zona de baile" loading="lazy">
+                </div>
+                <div class="galeria-item" data-animate="fade-up" data-delay="200">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnRWQCBQVqmB-J93OJ3tC65qlEpO9u3CzVgQR42lke8s9fzCEM0M5X0PQH77QxxvPzC-g1tXiSmK3rMnNUx2kD0L9v8cKQ0hm-Wdih8u5EwuGIiSXv_LzKKB4SegRJOAzD43rF0=s1360-w1360-h1020-rw" alt="Personas cantando" loading="lazy">
+                </div>
+                <div class="galeria-item" data-animate="fade-up" data-delay="300">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm9wd5nj7fq62BCmyK70HV0pv9kNaVT1mMPZEkRDW6MdZzaOF7N_goM8rslWZW5ygyqBFfvMs7BeJLBfA6erZ6Jh3-US_vx3-I7ZKZolow-53xjyyFC7QgSSzVoNWBka85H0dpG5g=s1360-w1360-h1020-rw" alt="Personas bailando" loading="lazy">
+                </div>
+                <div class="galeria-item galeria-item-wide" data-animate="fade-up" data-delay="400">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmh8Ffz_dqcvAWYjZsofMNIGxInlVuu0U5MMPTOShqdh_Kt4vhukIEE4JZyY4lu3JVY-gmi1GmA9Cw9PwNxEl4qSKrM5Kzxak7Ew2YTOuAzr-NUWXt-AFojE-fljGH70OY_uvjHag=s1360-w1360-h1020-rw" alt="Banda tocando en vivo" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios" id="testimonios">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label">Lo Que Dicen</span>
+                <h2 class="section-title">La gente que viene,<br>vuelve.</h2>
+                <p class="rating-general">3.9 ★★★★☆ basado en 222 reseñas</p>
+            </div>
+            <div class="testimonios-grid">
+                <div class="testimonio" data-animate="fade-up" data-delay="0">
+                    <div class="testimonio-header">
+                        <div class="testimonio-avatar">M</div>
+                        <div class="testimonio-info">
+                            <h4 class="testimonio-name">María G.</h4>
+                            <span class="testimonio-date">hace 2 semanas</span>
+                        </div>
+                        <div class="testimonio-rating">★★★★★</div>
+                    </div>
+                    <p class="testimonio-text">"La animación excelente, la música muy buena. Nos divertimos realmente mucho y volvería a ir. El karaoke es genial y la gente va con la mejor onda."</p>
+                </div>
+                <div class="testimonio" data-animate="fade-up" data-delay="150">
+                    <div class="testimonio-header">
+                        <div class="testimonio-avatar">L</div>
+                        <div class="testimonio-info">
+                            <h4 class="testimonio-name">Luciano M.</h4>
+                            <span class="testimonio-date">hace 1 mes</span>
+                        </div>
+                        <div class="testimonio-rating">★★★★☆</div>
+                    </div>
+                    <p class="testimonio-text">"Muy bueno y agradable lugar. Vinimos a festejar un cumple y la pasamos bárbaro. La música pega bien y el ambiente es de los que te hace quedarte hasta tarde."</p>
+                </div>
+                <div class="testimonio" data-animate="fade-up" data-delay="300">
+                    <div class="testimonio-header">
+                        <div class="testimonio-avatar">C</div>
+                        <div class="testimonio-info">
+                            <h4 class="testimonio-name">Carolina R.</h4>
+                            <span class="testimonio-date">hace 3 semanas</span>
+                        </div>
+                        <div class="testimonio-rating">★★★★★</div>
+                    </div>
+                    <p class="testimonio-text">"Excelente lugar y gente. Fuimos un sábado y no paramos de bailar. Los precios son normales para lo que es y el lugar tiene muy buena onda. Recomendado."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Momentos de Uso -->
+    <section class="momentos" id="momentos">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label">Momentos</span>
+                <h2 class="section-title">Cada noche tiene<br>su Antoinette.</h2>
+            </div>
+            <div class="momentos-grid">
+                <div class="momento" data-animate="fade-up" data-delay="0">
+                    <div class="momento-img-wrap">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkYUekOqCJsOhB5gPZ6M22WJ3nzPCLQ6zbX3_1pe-feLcM_mcXQL-0buUTDBgxQrmRO9MifODMAL_NY40--tKd59bBzR9jKJXkxjLiXsxSMC_9czEEewHjuu3GMjyWppBqYzqMd=s1360-w1360-h1020-rw" alt="La previa" loading="lazy">
+                    </div>
+                    <div class="momento-content">
+                        <span class="momento-time">20:00 – 22:00</span>
+                        <h3 class="momento-title">La Prevía</h3>
+                        <p class="momento-text">Arrancá temprano, pedí algo para picar, aflojá con la primera birra. El lugar se va llenando y la cosa arranca a prendeer.</p>
+                    </div>
+                </div>
+                <div class="momento" data-animate="fade-up" data-delay="150">
+                    <div class="momento-img-wrap">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWm9wd5nj7fq62BCmyK70HV0pv9kNaVT1mMPZEkRDW6MdZzaOF7N_goM8rslWZW5ygyqBFfvMs7BeJLBfA6erZ6Jh3-US_vx3-I7ZKZolow-53xjyyFC7QgSSzVoNWBka85H0dpG5g=s1360-w1360-h1020-rw" alt="La joda" loading="lazy">
+                    </div>
+                    <div class="momento-content">
+                        <span class="momento-time">22:00 – 02:00</span>
+                        <h3 class="momento-title">La Joda</h3>
+                        <p class="momento-text">Acá se pone serio. Bandas en vivo, karaoke, baile y esa energía que no encontrás en cualquier lado. El punto alto de la noche.</p>
+                    </div>
+                </div>
+                <div class="momento" data-animate="fade-up" data-delay="300">
+                    <div class="momento-img-wrap">
+                        <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlHmU58S4uTch_ZIyKIm_i2b31aZKQkqWrgR4cQBRwBWCtKLCLj2--omaKc44Q3WWtm5hNj4BBxCmNxcRFhDXom8i7BXyLDvHh5siPtZoDXKMZbVpPgh7PsofNNBfqSJO8YoENDXg=s1360-w1360-h1020-rw" alt="El after" loading="lazy">
+                    </div>
+                    <div class="momento-content">
+                        <span class="momento-time">02:00 – 04:00</span>
+                        <h3 class="momento-title">El After</h3>
+                        <p class="momento-text">Los que se quedaron, se quedaron por algo. Tragos tranquilos, charla, y el sabor de una noche bien vivida. Cerramos con estilo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historia -->
+    <section class="historia" id="historia">
+        <div class="container">
+            <div class="historia-grid">
+                <div class="historia-images" data-animate="fade-up">
+                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmh8Ffz_dqcvAWYjZsofMNIGxInlVuu0U5MMPTOShqdh_Kt4vhukIEE4JZyY4lu3JVY-gmi1GmA9Cw9PwNxEl4qSKrM5Kzxak7Ew2YTOuAzr-NUWXt-AFojE-fljGH70OY_uvjHag=s1360-w1360-h1020-rw" alt="Banda en Antoniette" loading="lazy">
+                </div>
+                <div class="historia-text" data-animate="fade-up" data-delay="200">
+                    <span class="section-label">La Historia</span>
+                    <h2 class="section-title">Nacimos de la noche,<br>para la noche.</h2>
+                    <p>Antoniette nació en Ramos Mejía con una idea simple: crear un lugar donde la gente pueda vivir una noche completa. No solo tomar algo, no solo bailar, no solo cantar. Todo junto, con buena onda y sin pretensiones.</p>
+                    <p>El nombre viene de la reina francesa, pero la esencia es 100% porteña: esa mezcla de sofisticación relajada que solo Buenos Aires sabe hacer. Luces de neón, sillones de cuero, música en vivo, y la puerta abierta para todos los que quieran pasarla bien.</p>
+                    <p>Hace más de un año que somos el punto de encuentro de la zona. Venís una vez, y ya sos de la casa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reserva / Contacto -->
+    <section class="reservar" id="reservar">
+        <div class="container">
+            <div class="reservar-grid">
+                <div class="reservar-info" data-animate="fade-up">
+                    <span class="section-label">Reservá Tu Mesa</span>
+                    <h2 class="section-title">¿Venís esta semana?</h2>
+                    <p>Las mesas vuelan los viernes y sábados. Si querés asegurarte tu lugar, avisanos por WhatsApp y te la tenemos lista.</p>
+                    <div class="reservar-detalles">
+                        <div class="detalle">
+                            <span class="detalle-label">Días</span>
+                            <span class="detalle-valor">Jueves, Viernes y Sábado</span>
+                        </div>
+                        <div class="detalle">
+                            <span class="detalle-label">Horario</span>
+                            <span class="detalle-valor">20:00 a 04:00</span>
+                        </div>
+                        <div class="detalle">
+                            <span class="detalle-label">WhatsApp</span>
+                            <span class="detalle-valor">011 5913-6834</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reservar-form" data-animate="fade-up" data-delay="200">
+                    <form id="reservaForm">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fecha">Fecha</label>
+                                <input type="date" id="fecha" name="fecha" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="personas">Personas</label>
+                                <select id="personas" name="personas" required>
+                                    <option value="">Cantidad</option>
+                                    <option value="1-2">1-2 personas</option>
+                                    <option value="3-4">3-4 personas</option>
+                                    <option value="5-6">5-6 personas</option>
+                                    <option value="7-8">7-8 personas</option>
+                                    <option value="8+">Más de 8 personas</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje (opcional)</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="¿Celebración especial? ¿Pedido extra? Contanos..." rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                            </svg>
+                            Reservar por WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-script">Antoinette</span>
+                        <span class="logo-sub">RestobarClub</span>
+                    </div>
+                    <p class="footer-tagline">La noche cobra vida en Ramos Mejía.</p>
+                </div>
+                <div class="footer-info">
+                    <h4 class="footer-title">Encontranos</h4>
+                    <address class="footer-address">
+                        Leandro N. Alem 475<br>
+                        Ramos Mejía, Buenos Aires<br>
+                        Argentina
+                    </address>
+                    <a href="tel:+5491159136834" class="footer-phone">011 5913-6834</a>
+                </div>
+                <div class="footer-horarios">
+                    <h4 class="footer-title">Horarios</h4>
+                    <ul class="horarios-list">
+                        <li><span>Jueves</span><span>20:00 – 00:00</span></li>
+                        <li><span>Viernes</span><span>20:00 – 04:00</span></li>
+                        <li><span>Sábado</span><span>20:00 – 04:00</span></li>
+                        <li class="cerrado"><span>Lun, Mar, Mié, Dom</span><span>Cerrado</span></li>
+                    </ul>
+                </div>
+                <div class="footer-map">
+                    <h4 class="footer-title">Ubicación</h4>
+                    <iframe
+                        src="https://maps.google.com/maps?q=Leandro+N+Alem+475+Ramos+Mejia+Buenos+Aires&output=embed"
+                        width="100%"
+                        height="200"
+                        style="border:0; border-radius: 8px;"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Antoniette Resto Bar Club. Todos los derechos reservados.</p>
+                <p class="footer-credit">Diseñado por <a href="https://tuweben3dias.com" target="_blank" rel="noopener">tuweben3dias.com</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5491159136834?text=Hola%20Antoniette%2C%20quiero%20hacer%20una%20reserva" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+    </a>
+
+    <script src="./script.js"></script>
+</body>
+</html>
