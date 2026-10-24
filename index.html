@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="base-uri 'self'; object-src 'none'; form-action 'none'">
+<script src="site-security.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antoniette - Resto Bar Club | Ramos Mejía</title>
@@ -24,7 +28,7 @@
                 <a href="#momentos" class="nav-link">Momentos</a>
                 <a href="#reservar" class="nav-link">Reservar</a>
             </nav>
-            <a href="https://wa.me/5491159136834?text=Hola%20Antoniette%2C%20quiero%20reservar" class="header-cta" target="_blank" rel="noopener">
+            <a href="https://wa.me/5491159136834?text=Hola%20Antoniette%2C%20quiero%20reservar" class="header-cta" target="_blank" rel="noopener noreferrer">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
                 </svg>
@@ -53,7 +57,7 @@
             <p class="hero-description" data-animate="fade-up" data-delay="400">Música en vivo, karaoke, la mejor onda y una experience que no termina con el último tema. Ramos Mejía tiene nuevo punto de encuentro.</p>
             <div class="hero-ctas" data-animate="fade-up" data-delay="600">
                 <a href="#experiencia" class="btn btn-primary">Descubrí la experiencia</a>
-                <a href="https://wa.me/5491159136834?text=Hola%2C%20quiero%20hacer%20una%20reserva%20en%20Antoniette" class="btn btn-secondary" target="_blank" rel="noopener">Reservar por WhatsApp</a>
+                <a href="https://wa.me/5491159136834?text=Hola%2C%20quiero%20hacer%20una%20reserva%20en%20Antoniette" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Reservar por WhatsApp</a>
             </div>
             <div class="hero-scroll" data-animate="fade-up" data-delay="800">
                 <span>Scroll</span>
@@ -110,7 +114,7 @@
                     <h2 class="section-title">Pizza, empanadas<br>y lo que la pida el cuerpo.</h2>
                     <p class="gastronomia-description">No somos gourmet y no pretendemos serlo. Somos honestos: pizza de verdad, empanadas que van bien con la birra, y tragos que no te arruinan el bolsillo. La carta cambia, los precios son justos, y la cosa fluye.</p>
                     <p class="gastronomia-cta-text">¿Querés ver qué hay hoy?</p>
-                    <a href="https://wa.me/5491159136834?text=Hola%2C%20quiero%20saber%20la%20carta%20de%20hoy" class="btn btn-primary" target="_blank" rel="noopener">Consultá la carta por WhatsApp</a>
+                    <a href="https://wa.me/5491159136834?text=Hola%2C%20quiero%20saber%20la%20carta%20de%20hoy" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Consultá la carta por WhatsApp</a>
                 </div>
                 <div class="gastronomia-images" data-animate="fade-up" data-delay="200">
                     <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlqyn03OVx1WsA-X2XbF381QnRLjCgbvt79x7xZdY51GBSYZgZLoMmCY0mK6S0lYNVg6gYs-9CBOIIU6YKkMHJWfROBuN2xuLZQN3-mvgPuVR9UIuXBEMeInp3Ay27PXPyLhf37WQ=s1360-w1360-h1020-rw" alt="Pizza de Antoniette" loading="lazy" class="gastronomia-img-1">
@@ -303,7 +307,7 @@
                             <label for="mensaje">Mensaje (opcional)</label>
                             <textarea id="mensaje" name="mensaje" placeholder="¿Celebración especial? ¿Pedido extra? Contanos..." rows="3"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-full">
+                        <button type="submit" class="btn btn-primary btn-full" disabled data-security-submit>
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
                             </svg>
@@ -359,18 +363,18 @@
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 Antoniette Resto Bar Club. Todos los derechos reservados.</p>
-                <p class="footer-credit">Diseñado por <a href="https://tuweben3dias.com" target="_blank" rel="noopener">tuweben3dias.com</a></p>
+                <p class="footer-credit">Diseñado por <a href="https://tuweben3dias.com" target="_blank" rel="noopener noreferrer">tuweben3dias.com</a></p>
             </div>
         </div>
     </footer>
 
     <!-- WhatsApp Float -->
-    <a href="https://wa.me/5491159136834?text=Hola%20Antoniette%2C%20quiero%20hacer%20una%20reserva" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <a href="https://wa.me/5491159136834?text=Hola%20Antoniette%2C%20quiero%20hacer%20una%20reserva" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
             <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
         </svg>
     </a>
 
-    <script src="./script.js"></script>
+    <script data-site-script src="./script.js"></script>
 </body>
 </html>
